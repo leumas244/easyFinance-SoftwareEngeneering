@@ -1,2 +1,2 @@
 # easyFinance-SoftwareEngeneering
-This Repository contains the code for the easyFinance  Application.
+This Repository contains all documantaion and code for the easyFinance Application.
