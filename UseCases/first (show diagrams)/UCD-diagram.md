@@ -7,7 +7,7 @@
 The goal of this UseCase is to enable the User to see a diagram about his actual balance. How much money is spent, available and maybe blocked.
 
 ## 1.2 Mockup
-[![Mockup Diagram](./easyFinance-Diagram.png)]
+![Mockup Diagram](./easyFinance-Diagram.png)]
 
 # 2. Flow of Events
 
