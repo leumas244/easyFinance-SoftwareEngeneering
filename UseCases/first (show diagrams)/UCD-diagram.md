@@ -17,8 +17,8 @@ The goal of this UseCase is to enable the User to see a diagram about his actual
 ![Activity Diagram](./UseCaseshowdiagram.png)
 
 ### .feature File
-![Feature](..showdiagram-feature.jpg)
-![Feature](../show_diagram.feature)
+![Feature](./showdiagram-feature.jpg)
+![Feature-Code](../show_diagram.feature)
 
 
 ## 2.2 Alternative Flows
