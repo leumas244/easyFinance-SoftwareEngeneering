@@ -17,7 +17,7 @@ The goal of this UseCase is to set the initial bankbalance, to have a well overv
 ![Activity Diagram](./UseCaseBankbalance.png)
 
 ### .feature File
-tbd
+![Feature](../set_balnace.feature)
 
 
 ## 2.2 Alternative Flows
