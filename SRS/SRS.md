@@ -1,62 +1,63 @@
 # easyFinance - Software Requirements Specification
 
-Version 1.0
+Version 1.1
  
-Revision History
-Date	Version	Description	Author
-10/16/2019	0.9	First draft	Nico Rahm
-10/20/2019	1.0	Final	Nico Rahm
+Revision History\
+Date	Version	Description	Author\
+10/16/2019	0.9	First draft	Nico Rahm\
+10/20/2019	1.0	Second draft	Nico Rahm\
+10/29/2019	1.1	Third draft	Dominik Lange\
 			
 			
 
  
 ## Table of Contents
-1.	Introduction
-1.1	Purpose
-1.2	Scope
-1.3	Definitions, Acronyms, and Abbreviations
-1.4	References
-1.5	Overview
-2.	Overall Description
-3.	Specific Requirements
-3.1	Functionality & UseCases
-3.1.1	Set bank balance
-3.1.2	Show diagrams
-3.1.3	Add categories
-3.1.4	Note payments/transactions
-3.1.5	Set alerts for balance limits & push notifications
-3.1.6	Show single diagram on the homepage
-3.1.7	Insert the “homepage” button
-3.1.8	Insert the “settings”
-3.1.9	Create the starting tutorial
-3.1.10	Requirement description
-3.2	Usability
-3.3	Reliability
-3.3.1	Availability
-3.3.2	Mean Time Between Failures
-3.3.3	Mean Time To Repair
-3.4	Performance
-3.4.1	Capacity
-3.4.2	Resources
-3.5	Supportability
-3.5.1	Comments
-3.5.2	Documentation
-3.6	Design Constraints
-3.6.1	Design
-3.6.2	Database
-3.6.3	Language
-3.6.4	Architecture
-3.7	On-line User Documentation and Help System Requirements
-3.8	Purchased Components
-3.9	Interfaces
-3.9.1	User Interfaces
-3.9.2	Hardware Interfaces
-3.9.3	Software Interfaces
-3.9.4	Communications Interfaces
-3.10	Licensing Requirements
-3.11	Legal, Copyright, and Other Notices
-3.12	Applicable Standards
-4.	Supporting Information
+1.	Introduction\
+1.1	Purpose\
+1.2	Scope\
+1.3	Definitions, Acronyms, and Abbreviations\
+1.4	References\
+1.5	Overview\
+2.	Overall Description\
+3.	Specific Requirements\
+3.1	Functionality & UseCases\
+3.1.1	Set bank balance\
+3.1.2	Show diagrams\
+3.1.3	Add categories\
+3.1.4	Note payments/transactions\
+3.1.5	Set alerts for balance limits & push notifications\
+3.1.6	Show single diagram on the homepage\
+3.1.7	Insert the “homepage” button\
+3.1.8	Insert the “settings”\
+3.1.9	Create the starting tutorial\
+3.1.10	Requirement description\
+3.2	Usability\
+3.3	Reliability\
+3.3.1	Availability\
+3.3.2	Mean Time Between Failures\
+3.3.3	Mean Time To Repair\
+3.4	Performance\
+3.4.1	Capacity\
+3.4.2	Resources\
+3.5	Supportability\
+3.5.1	Comments\
+3.5.2	Documentation\
+3.6	Design Constraints\
+3.6.1	Design\
+3.6.2	Database\
+3.6.3	Language\
+3.6.4	Architecture\
+3.7	On-line User Documentation and Help System Requirements\
+3.8	Purchased Components\
+3.9	Interfaces\
+3.9.1	User Interfaces\
+3.9.2	Hardware Interfaces\
+3.9.3	Software Interfaces\
+3.9.4	Communications Interfaces\
+3.10	Licensing Requirements\
+3.11	Legal, Copyright, and Other Notices\
+3.12	Applicable Standards\
+4.	Supporting Information\
  
 # Software Requirements Specification 
 ## 1.	Introduction
@@ -79,7 +80,8 @@ Our project is an app that makes it possible and comfortable to manage all finan
 The basic themes are to...
   * capture  every payment (automatically)
   * capture the income
-  * get an overview with dashboards, diagrams and individual notifications\
+  * get an overview with dashboards, diagrams and individual notifications
+
 Every payment is sorted into categories which can be created individually by the user himself. That makes it easy to manage several fields where one's money flows to. Moreover, we will try to automatically insert transactions from online banking and paypal into the app - if it's possible for us.
 The app automatically creates graphs, tables, every kind of chart and even notifications – due to the user’s wish. Those will show the user's money earned and spent over time. It will notify the user by passing individual conditions like e.g. "no money left" or "half of the monthly income is spent".
 In general, easyFinance gives the user an individual overview about his/her finance and optimizes the money-spending-behavior, showing the user where to save money.
