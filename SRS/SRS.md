@@ -79,7 +79,7 @@ Our project is an app that makes it possible and comfortable to manage all finan
 The basic themes are to...
   * capture  every payment (automatically)
   * capture the income
-  * get an overview with dashboards, diagrams and individual notifications
+  * get an overview with dashboards, diagrams and individual notifications\
 Every payment is sorted into categories which can be created individually by the user himself. That makes it easy to manage several fields where one's money flows to. Moreover, we will try to automatically insert transactions from online banking and paypal into the app - if it's possible for us.
 The app automatically creates graphs, tables, every kind of chart and even notifications – due to the user’s wish. Those will show the user's money earned and spent over time. It will notify the user by passing individual conditions like e.g. "no money left" or "half of the monthly income is spent".
 In general, easyFinance gives the user an individual overview about his/her finance and optimizes the money-spending-behavior, showing the user where to save money.
