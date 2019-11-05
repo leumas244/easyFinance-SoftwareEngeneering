@@ -3,12 +3,12 @@
 Version 1.1
  
 Revision History\
-Date	Version	Description	Author\
-10/16/2019	0.9	First draft	Nico Rahm\
-10/20/2019	1.0	Second draft	Nico Rahm\
-10/29/2019	1.1	Third draft	Dominik Lange\
 			
-			
+| Date       | Version | Description   | Author        |
+|------------|---------|---------------|---------------|
+| 10/16/2019 | 0.9     | First draft   | Nico Rahm     |
+| 10/20/2019 | 1.0     | Second draft  | Nico Rahm     |
+| 10/29/2019 | 1.1     | Third draft   | Dominik Lange |			
 
  
 ## Table of Contents
