@@ -176,6 +176,6 @@ easyFinance is copyright by easyFinance Ltd. in 2019
 ### 3.12	Applicable Standards
 Nothing to note yet
 ## 4.	Supporting Information
-•	Table of contents
-•	Index
-•	Appendices
+  * Table of contents
+  * Index
+  * Appendices
