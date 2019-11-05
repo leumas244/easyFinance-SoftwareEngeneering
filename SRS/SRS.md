@@ -71,8 +71,8 @@ The backend includes the database and the calculations that will be needed to vi
 Database: SQL database
 ### 1.4	References
 This document refers to all UseCase documents:
-•	[title],[29.10.2019],published on github (linked in chapter 3.1.1)
-•	[title],[29.10.2019],published on github (linked in chapter 3.1.1)
+•	[set bank-balance],[29.10.2019],published on github (linked in chapter 3.1.1)
+•	[show diagrams],[29.10.2019],published on github (linked in chapter 3.1.1)
 ### 1.5	Overview
 In the following all technical requirement will be specified. It is organized as defined in the table of contents.
 ## 2.	Overall Description
@@ -92,14 +92,14 @@ On the first use, the current bank balance has to be set in the app.
 Therefore, a button, called “adapt bank-balance”, can be clicked in order to link the user to a new page on which it is possible to insert a float number in a casket.
 With another click on a “save” button, the user gets back to the start page on which the current bank balance will be shown.
 
-See more:
+See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/tree/master/UseCases/second%20(add%20bankbalance)
 
 #### 3.1.2	Show diagrams
 There is a possibility in the app to see several individual diagrams about the user’s financial state.
 With the button “show diagram”, the system loads a new page on which the user can select/click on the wished diagrams to be shown.
 The system requests the needed data from the data bank and draws the clicked diagrams.
 
-See more: 
+See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/tree/master/UseCases/first%20(show%20diagrams)
 
 #### 3.1.3	Add categories
 The user can create his own transaction-categories, beside the standard ones. Later on, payments can be assigned to those categories.
@@ -127,8 +127,6 @@ During development progress, the following tools will be in use:
 Starting the app the first time, the user will be guided through a tutorial wich gives information about the main features of the app. The duration of that tutorial will be like one to three minutes.
 After the start sequence, the user knows each function and is, due to the comfortable GUI, an expert after one hour int the worst case. 
 The professional use of that app does not require any previous knowledge in finance tools.
-
-#### 3.2.1	<Usability Requirement One>
 
 ### 3.3	Reliability 
 #### 3.3.1	Availability
