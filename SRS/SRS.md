@@ -70,16 +70,16 @@ The backend includes the database and the calculations that will be needed to vi
 Database: SQL database
 ### 1.4	References
 This document refers to all UseCase documents:
-•	[set bank-balance],[29.10.2019],published on github (linked in chapter 3.1.1)
-•	[show diagrams],[29.10.2019],published on github (linked in chapter 3.1.1)
+  * [set bank-balance],[29.10.2019],published on github (linked in chapter 3.1.1)
+  * [show diagrams],[29.10.2019],published on github (linked in chapter 3.1.1)
 ### 1.5	Overview
 In the following all technical requirement will be specified. It is organized as defined in the table of contents.
 ## 2.	Overall Description
 Our project is an app that makes it possible and comfortable to manage all financial transactions. It is generally intended for private use.
 The basic themes are to...
-•	capture  every payment (automatically)
-•	capture the income
-•	get an overview with dashboards, diagrams and individual notifications
+  * capture  every payment (automatically)
+  * capture the income
+  * get an overview with dashboards, diagrams and individual notifications
 Every payment is sorted into categories which can be created individually by the user himself. That makes it easy to manage several fields where one's money flows to. Moreover, we will try to automatically insert transactions from online banking and paypal into the app - if it's possible for us.
 The app automatically creates graphs, tables, every kind of chart and even notifications – due to the user’s wish. Those will show the user's money earned and spent over time. It will notify the user by passing individual conditions like e.g. "no money left" or "half of the monthly income is spent".
 In general, easyFinance gives the user an individual overview about his/her finance and optimizes the money-spending-behavior, showing the user where to save money.
@@ -115,12 +115,12 @@ There will be a setting button which leads the user to the settings. On the sett
 There will be a tutorial on the first start of the app which can be repeated several times
 #### 3.1.10	Requirement description
 During development progress, the following tools will be in use:
-•	Android studio, with
-•	Ionic framework
-•	Java script
-•	Html
-•	Github
-•	Youtrack
+  * Android studio, with
+  * Ionic framework
+  * Java script
+  * Html
+  * Github
+  * Youtrack
 
 ### 3.2	Usability
 Starting the app the first time, the user will be guided through a tutorial wich gives information about the main features of the app. The duration of that tutorial will be like one to three minutes.
