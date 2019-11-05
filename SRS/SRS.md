@@ -11,53 +11,52 @@ Date	Version	Description	Author
 
  
 ## Table of Contents
-1.	Introduction	5
-1.1	Purpose	5
-1.2	Scope	5
-1.3	Definitions, Acronyms, and Abbreviations	5
-1.4	References	5
-1.5	Overview	5
-2.	Overall Description	5
-3.	Specific Requirements	6
-3.1	Functionality & UseCases	6
-3.1.1	Set bank balance	6
-3.1.2	Show diagrams	6
-3.1.3	Add categories	6
-3.1.4	Note payments/transactions	6
-3.1.5	Set alerts for balance limits & push notifications	6
-3.1.6	Show single diagram on the homepage	6
-3.1.7	Insert the “homepage” button	6
-3.1.8	Insert the “settings”	6
-3.1.9	Create the starting tutorial	6
-3.1.10	<Functional Requirement One>	6
-3.2	Usability	7
-3.2.1	<Usability Requirement One>	7
-3.3	Reliability	7
-3.3.1	Availability	7
-3.3.2	Mean Time Between Failures	7
-3.3.3	Mean Time To Repair	7
-3.4	Performance	7
-3.4.1	Capacity	7
-3.4.2	Resources	7
-3.5	Supportability	7
-3.5.1	Comments	7
-3.5.2	Documentation	7
-3.6	Design Constraints	7
-3.6.1	Design	7
-3.6.2	Database	7
-3.6.3	Language	7
-3.6.4	Architecture	8
-3.7	On-line User Documentation and Help System Requirements	8
-3.8	Purchased Components	8
-3.9	Interfaces	8
-3.9.1	User Interfaces	8
-3.9.2	Hardware Interfaces	8
-3.9.3	Software Interfaces	8
-3.9.4	Communications Interfaces	8
-3.10	Licensing Requirements	8
-3.11	Legal, Copyright, and Other Notices	8
-3.12	Applicable Standards	8
-4.	Supporting Information	8
+1.	Introduction
+1.1	Purpose
+1.2	Scope
+1.3	Definitions, Acronyms, and Abbreviations
+1.4	References
+1.5	Overview
+2.	Overall Description
+3.	Specific Requirements
+3.1	Functionality & UseCases
+3.1.1	Set bank balance
+3.1.2	Show diagrams
+3.1.3	Add categories
+3.1.4	Note payments/transactions
+3.1.5	Set alerts for balance limits & push notifications
+3.1.6	Show single diagram on the homepage
+3.1.7	Insert the “homepage” button
+3.1.8	Insert the “settings”
+3.1.9	Create the starting tutorial
+3.1.10	Requirement description
+3.2	Usability
+3.3	Reliability
+3.3.1	Availability
+3.3.2	Mean Time Between Failures
+3.3.3	Mean Time To Repair
+3.4	Performance
+3.4.1	Capacity
+3.4.2	Resources
+3.5	Supportability
+3.5.1	Comments
+3.5.2	Documentation
+3.6	Design Constraints
+3.6.1	Design
+3.6.2	Database
+3.6.3	Language
+3.6.4	Architecture
+3.7	On-line User Documentation and Help System Requirements
+3.8	Purchased Components
+3.9	Interfaces
+3.9.1	User Interfaces
+3.9.2	Hardware Interfaces
+3.9.3	Software Interfaces
+3.9.4	Communications Interfaces
+3.10	Licensing Requirements
+3.11	Legal, Copyright, and Other Notices
+3.12	Applicable Standards
+4.	Supporting Information
  
 # Software Requirements Specification 
 ## 1.	Introduction
@@ -114,7 +113,7 @@ There will be a home button which leads the user to the home page (from everywhe
 There will be a setting button which leads the user to the settings. On the setting, the user can individualize his app.
 #### 3.1.9	Create the starting tutorial
 There will be a tutorial on the first start of the app which can be repeated several times
-#### 3.1.10	<Functional Requirement One>
+#### 3.1.10	Requirement description
 During development progress, the following tools will be in use:
 •	Android studio, with
 •	Ionic framework
