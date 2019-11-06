@@ -93,14 +93,14 @@ On the first use, the current bank balance has to be set in the app.
 Therefore, a button, called “adapt bank-balance”, can be clicked in order to link the user to a new page on which it is possible to insert a float number in a casket.
 With another click on a “save” button, the user gets back to the start page on which the current bank balance will be shown.
 
-See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/tree/master/UseCases/second%20(add%20bankbalance)
+See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/blob/master/UseCases/second%20(add%20bankbalance)/UCD-bankbalance.md
 
 #### 3.1.2	Show diagrams
 There is a possibility in the app to see several individual diagrams about the user’s financial state.
 With the button “show diagram”, the system loads a new page on which the user can select/click on the wished diagrams to be shown.
 The system requests the needed data from the data bank and draws the clicked diagrams.
 
-See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/tree/master/UseCases/first%20(show%20diagrams)
+See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/blob/master/UseCases/first%20(show%20diagrams)/UCD-diagram.md
 
 #### 3.1.3	Add categories
 The user can create his own transaction-categories, beside the standard ones. Later on, payments can be assigned to those categories.
