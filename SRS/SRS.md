@@ -117,10 +117,10 @@ There will be a setting button which leads the user to the settings. On the sett
 There will be a tutorial on the first start of the app which can be repeated several times
 #### 3.1.10	Requirement description
 During development progress, the following tools will be in use:
-  * Android studio, with
-  * Ionic framework
-  * Java script
-  * Html
+  * Android studio for the emulation
+  * "Flutter" framework
+  * Visual Studio Code as IDE
+  * "dart" as programming language
   * Github
   * Youtrack
 
