@@ -1,0 +1,34 @@
+@startuml
+set namespaceSeparator ::
+
+class "ef::home_widget.dart::Home" {
+  +State createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "ef::home_widget.dart::Home"
+
+class "ef::home_widget.dart::_HomeState" {
+  -int _currentIndex
+  -List<Widget> _children
+  +Widget build()
+  +void onTabTapped()
+}
+
+"flutter::src::widgets::framework.dart::State<T>" <|-- "ef::home_widget.dart::_HomeState"
+
+class "ef::main.dart::App" {
+  +Widget build()
+}
+
+"flutter::src::widgets::framework.dart::StatelessWidget" <|-- "ef::main.dart::App"
+
+class "ef::placeholder_widget.dart::PlaceholderWidget" {
+  +Color color
+  +Widget build()
+}
+
+"ef::placeholder_widget.dart::PlaceholderWidget" o-- "dart::ui::Color"
+"flutter::src::widgets::framework.dart::StatelessWidget" <|-- "ef::placeholder_widget.dart::PlaceholderWidget"
+
+
+@enduml
