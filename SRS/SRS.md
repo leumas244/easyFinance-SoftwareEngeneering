@@ -13,7 +13,7 @@ Revision History\
  
 ## Table of Contents
 - [1. Introduction](#1-introduction)
-	* [1.1 Purpose](#11-purpose)
+  * [1.1 Purpose](#11-purpose)
 	* [1.2 Scope](#12-scope)
 	* [1.3 Definitions, Acronyms, and Abbreviations](#13-definitions-acronyms-and-abreviations)
 	* [1.4 References](#14-references)
