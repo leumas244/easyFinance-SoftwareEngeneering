@@ -14,49 +14,49 @@ Revision History\
 ## Table of Contents
 - [1. Introduction](#1-introduction)
 	* [1.1 Purpose](#11-purpose)
-	* [1.2	Scope](#12-scope)
-	* [1.3	Definitions, Acronyms, and Abbreviations](#13-definitions-acronyms-and-abreviations)
-	* [1.4	References](#14-references)
-	* [1.5	Overview](#15-overview)
+	* [1.2 Scope](#12-scope)
+	* [1.3 Definitions, Acronyms, and Abbreviations](#13-definitions-acronyms-and-abreviations)
+	* [1.4 References](#14-references)
+	* [1.5 Overview](#15-overview)
 - [2. Overall Description](#2-overall-description)
 - [3. Specific Requirements](#3-specific-requirements)
-	[3.1	Functionality & UseCases\
-		[3.1.1	Set bank balance\
-		[3.1.2	Show diagrams\
-		[3.1.3	Add categories\
-		[3.1.4	Note payments/transactions\
-		[3.1.5	Set alerts for balance limits & push notifications\
-		[3.1.6	Show single diagram on the homepage\
-		[3.1.7	Insert the “homepage” button\
-		[3.1.8	Insert the “settings”\
-		[3.1.9	Create the starting tutorial\
-		[3.1.10	Requirement description\
-	[3.2	Usability\
-	[3.3	Reliability\
-		[3.3.1	Availability\
-		[3.3.2	Mean Time Between Failures\
-		[3.3.3	Mean Time To Repair\
-	[3.4	Performance\
-		[3.4.1	Capacity\
-		[3.4.2	Resources\
-	[3.5	Supportability\
-		[3.5.1	Comments\
-		[3.5.2	Documentation\
-	[3.6	Design Constraints\
-		[3.6.1	Design\
-		[3.6.2	Database\
-		[3.6.3	Language\
-		[3.6.4	Architecture\
-	[3.7	On-line User Documentation and Help System Requirements\
-	[3.8	Purchased Components\
-	[3.9	Interfaces\
-		[3.9.1	User Interfaces\
-		[3.9.2	Hardware Interfaces\
-		[3.9.3	Software Interfaces\
-		[3.9.4	Communications Interfaces\
-	[3.10	Licensing Requirements\
-	[3.11	Legal, Copyright, and Other Notices\
-	[3.12	Applicable Standards](#312-appicable-standards)
+	* [3.1 Functionality and UseCases](#31-funktionality-and-usecases)
+		+ [3.1.1 Set bank balance](#311-set-bank-balance)
+		+ [3.1.2 Show diagrams](#312-test)
+		+ [3.1.3 Add categories]
+		+ [3.1.4 Note payments/transactions]
+		+ [3.1.5 Set alerts for balance limits & push notifications]
+		+ [3.1.6 Show single diagram on the homepage]
+		+ [3.1.7 Insert the “homepage” button]
+		+ [3.1.8 Insert the “settings”]
+		+ [3.1.9 Create the starting tutorial]
+		+ [3.1.10 Requirement description]
+	* [3.2 Usability]
+	* [3.3 Reliability]
+		+ [3.3.1 Availability]
+		+ [3.3.2 Mean Time Between Failures]
+		+ [3.3.3 Mean Time To Repair]
+	* [3.4 Performance]
+		+ [3.4.1 Capacity]
+		+ [3.4.2 Resources]
+	* [3.5 Supportability]
+		+ [3.5.1 Comments]
+		+ [3.5.2 Documentation]
+	* [3.6 Design Constraints]
+		+ [3.6.1 Design]
+		+ [3.6.2 Database]
+		+ [3.6.3 Language]
+		+ [3.6.4 Architecture]
+	* [3.7 On-line User Documentation and Help System Requirements]
+	* [3.8 Purchased Components]
+	* [3.9 Interfaces]
+		+ [3.9.1 User Interfaces]
+		+ [3.9.2 Hardware Interfaces]
+		+ [3.9.3 Software Interfaces]
+		+ [3.9.4 Communications Interfaces]
+	* [3.10 Licensing Requirements]
+	* [3.11 Legal, Copyright, and Other Notices](#311-legal-copyright-and-other-notices)
+	* [3.12 Applicable Standards](#312-appicable-standards)
 - [4. Supporting Information](#4-supporting-information)
  
 # Software Requirements Specification 
