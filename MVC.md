@@ -7,12 +7,22 @@ Revision History\
 | 12/02/2019 | 0.9     | First draft   | Samuel        |
 
 
+
 # Software Architecture Document
 ## 1. Introduction
 ### 1.1	Purpose
+This document provides a comprehensive architectural overview of the system, using a number of different architectural views to depict different aspects of the system. It is intended to capture and convey the significant architectural decisions which have been made on the system.
 
 ### 1.2	Scope
-### 1.3	Definitions, Acronyms, and Abbreviations
+This document describes the architecture of the easyFinance App.
+
+#### 1.3	Definitions, Acronyms, and Abbreviations
+| Abbreviations		| Discription		| 
+|-----------------------|-----------------------|
+| n/a			| not applicable	| 
+|			| 			| 
+|			| 			| 
+
 ### 1.4	References
 ### 1.5	Overview
 
