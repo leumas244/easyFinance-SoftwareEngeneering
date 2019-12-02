@@ -12,7 +12,7 @@ Revision History\
 
  
 ## Table of Contents
-- [1. Introduction](#1-Introduction)
+- [1. Introduction](#1-introduction)
 	* [1.1 Purpose](#11-purpose)
 	* [1.2	Scope](#12-scope)
 	* [1.3	Definitions, Acronyms, and Abbreviations](#13-definitions-acronyms-and-abreviations)
@@ -60,7 +60,7 @@ Revision History\
 - [4. Supporting Information](#4-supporting-information)
  
 # Software Requirements Specification 
-## 1.	Introduction
+## 1. Introduction
 
 easyFinance is a HTML based finance management app using a relational SQL database as Backend. It is used to store all information about the payments the user did. In this document all requirements for the backend will be specified. 
 ### 1.1	Purpose
