@@ -19,7 +19,7 @@ Revision History\
 # 3. Architectural Goals and Constraints 
 
 # 4. Use-Case View 
-![Our overall Usecas](./OverallUsecase.png)
+![Our overall Usecas](./OverallUsecases.png)
 # 5. Logical View 
 ## 5.1	Overview
 ## 5.2	Architecturally Significant Design Packages
