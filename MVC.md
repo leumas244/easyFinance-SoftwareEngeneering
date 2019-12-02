@@ -18,17 +18,13 @@ Revision History\
     - [1.4 References](#14-references)
     - [1.5 Overview](#15-overview)
 - [2. Architectural Representation](#2-architectural-representation)
-    - [2.1 Technologies used](#21-technologies-used)
 - [3. Architectural Goals and Constraints](#3-architectural-goals-and-constraints)
 - [4. Use-Case View](#4-use-case-view)
-    - [4.1 Use-Case Realizations](#41-use-case-realizations)
 - [5. Logical View](#5-logical-view)
     - [5.1 Overview](#51-overview)
 - [6. Process View](#6-process-view)
 - [7. Deployment View](#7-deployment-view)
 - [8. Implementation View](#8-implementation-view)
-    - [8.1 Overview](#81-overview)
-    - [8.2 Layers](#82-layers)
 - [9. Data View](#9-data-view)
 - [10. Size and Performance](#10-size-and-performance)
 - [11. Quality](#11-quality)
@@ -69,7 +65,7 @@ There is unfortunately no tool for Flutter
 ## 8. Implementation View 
 (n/a)
 
-## 9. Data View (optional)
+## 9. Data View
 Not finished jet. To be done in the next Week.
 ## 10. Size and Performance
 (n/a)
