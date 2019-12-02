@@ -16,7 +16,6 @@ Revision History\
     - [1.2 Scope](#12-scope)
     - [1.3 Definitions, Acronyms and Abbreviations](#13-definitions-acronyms-and-abbreviations)
     - [1.4 References](#14-references)
-    - [1.5 Overview](#15-overview)
 - [2. Architectural Representation](#2-architectural-representation)
 - [3. Architectural Goals and Constraints](#3-architectural-goals-and-constraints)
 - [4. Use-Case View](#4-use-case-view)
@@ -44,7 +43,11 @@ This document describes the architecture of the easyFinance App.
 |			| 			| 
 
 ### 1.4	References
-### 1.5	Overview
+| Titel										| Organisation		| 
+|-------------------------------------------------------------------------------|-----------------------|
+| [easyFinance Blog](https://softwareengineeringtinf18b3.wordpress.com/)	| easyFinanaceTeam	| 
+| [Youtrack](https://softwareengeneering.myjetbrains.com/youtrack/dashboard?id=cc5fd7ad-01fa-4339-902c-d544cb31886a) | easyFinacneTeam	| 
+
 
 ## 2. Architectural Representation 
 
@@ -55,7 +58,6 @@ There is unfortunately no tool for Flutter
 ## 5. Logical View 
 ### 5.1	Overview
 ![Class Diagram MVC](./CD-MVC.png)
-### 5.2	Architecturally Significant Design Packages
 
 ## 6. Process View 
 (n/a)
