@@ -12,15 +12,16 @@ Revision History\
 
  
 ## Table of Contents
+
 - [1. Introduction](#1-introduction)
   * [1.1 Purpose](#11-purpose)
   * [1.2 Scope](#12-scope)
-  * [1.3 Definitions, Acronyms, and Abbreviations](#13-definitions-acronyms-and-abreviations)
+  * [1.3 Definitions, Acronyms, and Abbreviations](#13-definitions-acronyms-and-abbreviations)
   * [1.4 References](#14-references)
   * [1.5 Overview](#15-overview)
 - [2. Overall Description](#2-overall-description)
 - [3. Specific Requirements](#3-specific-requirements)
-  * [3.1 Functionality and UseCases](#31-funktionality-and-usecases)
+  * [3.1 Functionality](#31-functionality)
     + [3.1.1 Set bank balance](#311-set-bank-balance)
     + [3.1.2 Show diagrams](#312-test)
     + [3.1.3 Add categories]
