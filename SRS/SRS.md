@@ -24,38 +24,38 @@ Revision History\
   * [3.1 Functionality and UseCases](#31-functionality-and-usecases)
     + [3.1.1 Set bank balance](#311-set-bank-balance)
     + [3.1.2 Show diagrams](#312-test)
-    + [3.1.3 Add categories]
-    + [3.1.4 Note payments/transactions]
-    + [3.1.5 Set alerts for balance limits & push notifications]
-    + [3.1.6 Show single diagram on the homepage]
-    + [3.1.7 Insert the “homepage” button]
-    + [3.1.8 Insert the “settings”]
-    + [3.1.9 Create the starting tutorial]
-    + [3.1.10 Requirement description]
-  * [3.2 Usability]
-  * [3.3 Reliability]
-    + [3.3.1 Availability]
-    + [3.3.2 Mean Time Between Failures]
-    + [3.3.3 Mean Time To Repair]
-  * [3.4 Performance]
-    + [3.4.1 Capacity]
-    + [3.4.2 Resources]
-  * [3.5 Supportability]
-    + [3.5.1 Comments]
-    + [3.5.2 Documentation]
-  * [3.6 Design Constraints]
-    + [3.6.1 Design]
-    + [3.6.2 Database]
-    + [3.6.3 Language]
-    + [3.6.4 Architecture]
-  * [3.7 On-line User Documentation and Help System Requirements]
-  * [3.8 Purchased Components]
-  * [3.9 Interfaces]
-    + [3.9.1 User Interfaces]
-    + [3.9.2 Hardware Interfaces]
-    + [3.9.3 Software Interfaces]
-    + [3.9.4 Communications Interfaces]
-  * [3.10 Licensing Requirements]
+    + [3.1.3 Add categories](#313-add-categories)
+    + [3.1.4 Note payments/transactions](#314-note-payments/transactions)
+    + [3.1.5 Set alerts for balance limits & push notifications](#315-set-alerts-for-bank-balance-limits-&-push-notifications)
+    + [3.1.6 Show single diagram on the homepage](#316-show-single-diagram-on-the-homepage)
+    + [3.1.7 Insert the “homepage” button](#317-insert-the-"homepage"-button)
+    + [3.1.8 Insert the “settings”](#318-insert-the-"settings")
+    + [3.1.9 Create the starting tutorial](#319-create-the-starting-tutorial)
+    + [3.1.10 Requirement description](#3110-requirement-description)
+  * [3.2 Usability](#32-usability)
+  * [3.3 Reliability](#33-reliability)
+    + [3.3.1 Availability](#331-availability)
+    + [3.3.2 Mean Time Between Failures](#332-mean-time-between-failures)
+    + [3.3.3 Mean Time To Repair](#333-mean-time-to-repair)
+  * [3.4 Performance](#34-performance)
+    + [3.4.1 Capacity](#341-capacity)
+    + [3.4.2 Resources](#342-resources)
+  * [3.5 Supportability](#35-supportability)
+    + [3.5.1 Comments](#351-comments)
+    + [3.5.2 Documentation](#352-documentation)
+  * [3.6 Design Constraints](#36-design-constraints)
+    + [3.6.1 Design](#361-design)
+    + [3.6.2 Database](#362-database)
+    + [3.6.3 Language](#363-language)
+    + [3.6.4 Architecture](#364-architecture)
+  * [3.7 On-line User Documentation and Help System Requirements](#37-on-line-user-documentation-and-help-system-requirements)
+  * [3.8 Purchased Components](#38-purchased-components)
+  * [3.9 Interfaces](#39-interfaces)
+    + [3.9.1 User Interfaces](#391-user-interface)
+    + [3.9.2 Hardware Interfaces](#392-hardware-interfaces)
+    + [3.9.3 Software Interfaces](#393-software-interfaces)
+    + [3.9.4 Communications Interfaces](#394-communications-interfaces)
+  * [3.10 Licensing Requirements](#310-licensing-requirements)
   * [3.11 Legal, Copyright, and Other Notices](#311-legal-copyright-and-other-notices)
   * [3.12 Applicable Standards](#312-appicable-standards)
 - [4. Supporting Information](#4-supporting-information)
