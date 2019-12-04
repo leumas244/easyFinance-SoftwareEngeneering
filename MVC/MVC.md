@@ -65,7 +65,7 @@ There is unfortunately no tool for Flutter
 (n/a)
 
 ## 7. Deployment View 
-
+![Deployment View MVC](./Deployment_View.png)
 ## 8. Implementation View 
 (n/a)
 
