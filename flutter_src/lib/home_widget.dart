@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'placeholder_widget.dart';
+import 'diagram_widget.dart';
 
 
 class Home extends StatefulWidget {
@@ -12,18 +13,32 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
  int _currentIndex = 0;
  final List<Widget> _children = [
-   PlaceholderWidget(Colors.white),
+   PlaceholderWidget(Colors.red),
    PlaceholderWidget(Colors.deepOrange),
+   DonutPieChart.withSampleData(),
    PlaceholderWidget(Colors.green)
  ];
  @override
  Widget build(BuildContext context) {
    return Scaffold(
      appBar: AppBar(
-       title: Image.asset('easyFinance_logo.jpeg', fit: BoxFit.cover),
+       title: Text('easyFinance'),
      ),
      body: _children[_currentIndex],
-     bottomNavigationBar: BottomNavigationBar(
+     bottomNavigationBar:
+     new Theme(
+      data: Theme.of(context).copyWith(
+        // sets the background color of the `BottomNavigationBar`
+        canvasColor: Colors.green,
+        // sets the active color of the `BottomNavigationBar` if `Brightness` is light
+        primaryColor: Colors.red,
+        textTheme: Theme
+            .of(context)
+            .textTheme
+            .copyWith(caption: new TextStyle(color: Colors.yellow))), // sets the inactive color of the `BottomNavigationBar` 
+     
+      child:
+      BottomNavigationBar(
        onTap: onTabTapped,
        currentIndex: _currentIndex,
        items: [
@@ -36,11 +51,16 @@ class _HomeState extends State<Home> {
            title: new Text('Transactions'),
          ),
          BottomNavigationBarItem(
-           icon: Icon(Icons.settings),
-           title: Text('Settings')
-         )
+           icon: new Icon(Icons.donut_small),
+           title: new Text('Diagrams')
+         ),
+         BottomNavigationBarItem(
+           icon: new Icon(Icons.settings),
+           title: new Text('Settings')
+         ),
        ],
      ),
+   ),
    );
  }
  void onTabTapped(int index) {
