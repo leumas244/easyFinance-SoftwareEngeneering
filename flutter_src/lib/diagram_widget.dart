@@ -4,16 +4,12 @@ import 'package:charts_flutter/flutter.dart' as charts;
 
 class DonutPieChart extends StatelessWidget {
   final List<charts.Series> seriesList;
-
-
   DonutPieChart(this.seriesList,);
 
   /// Creates a [PieChart] with sample data and no transition.
   factory DonutPieChart.withSampleData() {
     return new DonutPieChart(
       _createSampleData(),
-      // Disable animations for image tests.
-      
     );
   }
 
