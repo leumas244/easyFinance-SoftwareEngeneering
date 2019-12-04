@@ -54,9 +54,11 @@ This document describes the architecture of the easyFinance App.
 ## 3. Architectural Goals and Constraints 
 There is unfortunately no tool for Flutter
 ## 4. Use-Case View
-![Our overall Usecas](./OverallUsecases.png)
-## 5. Logical View 
+![Our overall Usecas](../OverallUsecases.png)
+## 5. Logical View
 ### 5.1	Overview
+![Logical Overview MVC](./Logical_Overview.png)
+### 5.2	Architecturally Significant Design Packages
 ![Class Diagram MVC](./CD-MVC.png)
 
 ## 6. Process View 
