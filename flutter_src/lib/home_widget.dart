@@ -1,6 +1,7 @@
+import 'package:ef/diagrams_widget.dart';
 import 'package:flutter/material.dart';
 import 'placeholder_widget.dart';
-import 'diagram_widget.dart';
+import 'diagrams_widget.dart';
 
 
 class Home extends StatefulWidget {
@@ -15,12 +16,13 @@ class _HomeState extends State<Home> {
  final List<Widget> _children = [
    PlaceholderWidget(Colors.red),
    PlaceholderWidget(Colors.deepOrange),
-   DonutPieChart.withSampleData(),
+   DiagramPage(),
    PlaceholderWidget(Colors.green)
  ];
  @override
  Widget build(BuildContext context) {
    return Scaffold(
+
      appBar: AppBar(
        title: Text('easyFinance'),
        backgroundColor: Colors.green,
