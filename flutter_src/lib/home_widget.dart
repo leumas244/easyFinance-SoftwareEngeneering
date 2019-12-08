@@ -2,7 +2,7 @@ import 'package:ef/diagrams_widget.dart';
 import 'package:flutter/material.dart';
 import 'placeholder_widget.dart';
 import 'diagrams_widget.dart';
-import 'settings.dart';
+import './settings/settings.dart';
 
 
 class Home extends StatefulWidget {
