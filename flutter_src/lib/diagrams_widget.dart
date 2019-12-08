@@ -11,34 +11,31 @@ class DiagramPage extends StatefulWidget {
 }
 
 class _DiagramPageState extends State<DiagramPage> {
-  List<charts.Series<Pollution, String>> _seriesData;
+  List<charts.Series<SolidBarData, String>> _seriesData;
   List<charts.Series<Task, String>> _seriesPieData;
   List<charts.Series<Sales, int>> _seriesLineData;
 
   _generateData() {
     var data1 = [
-      new Pollution(1980, 'USA', 30),
-      new Pollution(1980, 'Asia', 40),
-      new Pollution(1980, 'Europe', 10),
+      new SolidBarData(09, 'spend', 30),
+      new SolidBarData(10, 'earned', 45),
+      new SolidBarData(11, 'saved', 25),
     ];
     var data2 = [
-      new Pollution(1985, 'USA', 100),
-      new Pollution(1980, 'Asia', 150),
-      new Pollution(1985, 'Europe', 80),
+      new SolidBarData(09, 'spend', 40),
+      new SolidBarData(10, 'earned', 55),
+      new SolidBarData(11, 'saved', 10),
     ];
     var data3 = [
-      new Pollution(1985, 'USA', 200),
-      new Pollution(1980, 'Asia', 300),
-      new Pollution(1985, 'Europe', 180),
+      new SolidBarData(09, 'spend', 40),
+      new SolidBarData(10, 'earned', 50),
+      new SolidBarData(11, 'saved', 15),
     ];
 
     var piedata = [
-      new Task('Work', 35.8, Color(0xff3366cc)),
-      new Task('Eat', 8.3, Color(0xff990099)),
-      new Task('Commute', 10.8, Color(0xff109618)),
-      new Task('TV', 15.6, Color(0xfffdbe19)),
-      new Task('Sleep', 19.2, Color(0xffff9900)),
-      new Task('Other', 10.3, Color(0xffdc3912)),
+      new Task('spend', 35.8, Color(0xffff0000)),
+      new Task('available', 50, Color(0xff00ff00)),
+      new Task('blocked', 24.2, Color(0xffffa500)),
     ];
 
     var linesalesdata = [
@@ -69,36 +66,36 @@ class _DiagramPageState extends State<DiagramPage> {
 
     _seriesData.add(
       charts.Series(
-        domainFn: (Pollution pollution, _) => pollution.place,
-        measureFn: (Pollution pollution, _) => pollution.quantity,
-        id: '2017',
+        domainFn: (SolidBarData usage, _) => usage.usage,
+        measureFn: (SolidBarData usage, _) => usage.quantity,
+        id: 'Sep',
         data: data1,
         fillPatternFn: (_, __) => charts.FillPatternType.solid,
-        fillColorFn: (Pollution pollution, _) =>
+        fillColorFn: (SolidBarData usage, _) =>
             charts.ColorUtil.fromDartColor(Color(0xff990099)),
       ), 
     );
 
     _seriesData.add(
       charts.Series(
-        domainFn: (Pollution pollution, _) => pollution.place,
-        measureFn: (Pollution pollution, _) => pollution.quantity,
-        id: '2018',
+        domainFn: (SolidBarData usage, _) => usage.usage,
+        measureFn: (SolidBarData usage, _) => usage.quantity,
+        id: 'oct',
         data: data2,
         fillPatternFn: (_, __) => charts.FillPatternType.solid,
-        fillColorFn: (Pollution pollution, _) =>
+        fillColorFn: (SolidBarData usage, _) =>
            charts.ColorUtil.fromDartColor(Color(0xff109618)),
       ),
     );
 
     _seriesData.add(
       charts.Series(
-        domainFn: (Pollution pollution, _) => pollution.place,
-        measureFn: (Pollution pollution, _) => pollution.quantity,
-        id: '2019',
+        domainFn: (SolidBarData usage, _) => usage.usage,
+        measureFn: (SolidBarData usage, _) => usage.quantity,
+        id: 'nov',
         data: data3,
         fillPatternFn: (_, __) => charts.FillPatternType.solid,
-       fillColorFn: (Pollution pollution, _) =>
+       fillColorFn: (SolidBarData usage, _) =>
           charts.ColorUtil.fromDartColor(Color(0xffff9900)),
       ),
     );
@@ -109,7 +106,7 @@ class _DiagramPageState extends State<DiagramPage> {
         measureFn: (Task task, _) => task.taskvalue,
         colorFn: (Task task, _) =>
             charts.ColorUtil.fromDartColor(task.colorval),
-        id: 'Air Pollution',
+        id: 'SolidBarData',
         data: piedata,
          labelAccessorFn: (Task row, _) => '${row.taskvalue}',
       ),
@@ -118,7 +115,7 @@ class _DiagramPageState extends State<DiagramPage> {
     _seriesLineData.add(
       charts.Series(
         colorFn: (__, _) => charts.ColorUtil.fromDartColor(Color(0xff990099)),
-        id: 'Air Pollution',
+        id: 'SolidBarData',
         data: linesalesdata,
         domainFn: (Sales sales, _) => sales.yearval,
         measureFn: (Sales sales, _) => sales.salesval,
@@ -127,7 +124,7 @@ class _DiagramPageState extends State<DiagramPage> {
     _seriesLineData.add(
       charts.Series(
         colorFn: (__, _) => charts.ColorUtil.fromDartColor(Color(0xff109618)),
-        id: 'Air Pollution',
+        id: 'SolidBarData',
         data: linesalesdata1,
         domainFn: (Sales sales, _) => sales.yearval,
         measureFn: (Sales sales, _) => sales.salesval,
@@ -136,7 +133,7 @@ class _DiagramPageState extends State<DiagramPage> {
     _seriesLineData.add(
       charts.Series(
         colorFn: (__, _) => charts.ColorUtil.fromDartColor(Color(0xffff9900)),
-        id: 'Air Pollution',
+        id: 'SolidBarData',
         data: linesalesdata2,
         domainFn: (Sales sales, _) => sales.yearval,
         measureFn: (Sales sales, _) => sales.salesval,
@@ -146,9 +143,8 @@ class _DiagramPageState extends State<DiagramPage> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
-    _seriesData = List<charts.Series<Pollution, String>>();
+    _seriesData = List<charts.Series<SolidBarData, String>>();
     _seriesPieData = List<charts.Series<Task, String>>();
     _seriesLineData = List<charts.Series<Sales, int>>();
     _generateData();
@@ -181,7 +177,7 @@ class _DiagramPageState extends State<DiagramPage> {
                     child: Column(
                       children: <Widget>[
                         Text(
-                            'SO₂ emissions, by world region (in million tonnes)',style: TextStyle(fontSize: 24.0,fontWeight: FontWeight.bold),),
+                            'Expenditures and earnings per month',style: TextStyle(fontSize: 24.0,fontWeight: FontWeight.bold),),
                         Expanded(
                           child: charts.BarChart(
                             _seriesData,
@@ -203,7 +199,7 @@ class _DiagramPageState extends State<DiagramPage> {
                     child: Column(
                       children: <Widget>[
                         Text(
-                            'Time spent on daily tasks',style: TextStyle(fontSize: 24.0,fontWeight: FontWeight.bold),),
+                            'DonutChart Expenditures',style: TextStyle(fontSize: 24.0,fontWeight: FontWeight.bold),),
                             SizedBox(height: 10.0,),
                         Expanded(
                           child: charts.PieChart(
@@ -241,7 +237,7 @@ class _DiagramPageState extends State<DiagramPage> {
                     child: Column(
                       children: <Widget>[
                         Text(
-                            'Sales for the first 5 years',style: TextStyle(fontSize: 24.0,fontWeight: FontWeight.bold),),
+                            'Sales for the first 5 years TESTDATA',style: TextStyle(fontSize: 24.0,fontWeight: FontWeight.bold),),
                         Expanded(
                           child: charts.LineChart(
                             _seriesLineData,
@@ -276,12 +272,12 @@ class _DiagramPageState extends State<DiagramPage> {
   }
 }
 
-class Pollution {
-  String place;
-  int year;
+class SolidBarData {
+  String usage;
+  int month;
   int quantity;
 
-  Pollution(this.year, this.place, this.quantity);
+  SolidBarData(this.month, this.usage, this.quantity);
 }
 
 class Task {
