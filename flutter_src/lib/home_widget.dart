@@ -2,6 +2,7 @@ import 'package:ef/diagrams_widget.dart';
 import 'package:flutter/material.dart';
 import 'placeholder_widget.dart';
 import 'diagrams_widget.dart';
+import './settings/settings.dart';
 
 
 class Home extends StatefulWidget {
@@ -17,7 +18,7 @@ class _HomeState extends State<Home> {
    PlaceholderWidget(Colors.red),
    PlaceholderWidget(Colors.deepOrange),
    DiagramPage(),
-   PlaceholderWidget(Colors.green)
+   Settings()
  ];
  @override
  Widget build(BuildContext context) {

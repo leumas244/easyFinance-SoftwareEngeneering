@@ -8,7 +8,8 @@ Revision History\
 |------------|---------|---------------|---------------|
 | 10/16/2019 | 0.9     | First draft   | Nico Rahm     |
 | 10/20/2019 | 1.0     | Second draft  | Nico Rahm     |
-| 10/29/2019 | 1.1     | Third draft   | Dominik Lange |			
+| 10/29/2019 | 1.1     | Third draft   | Dominik Lange |
+| 12/08/2019 | 1.2     | Fourth draft  | Dominik Lange |
 
  
 ## Table of Contents
@@ -29,9 +30,10 @@ Revision History\
     + [3.1.5 Set alerts for balance limits & push notifications](#315-set-alerts-for-bank-balance-limits-&-push-notifications)
     + [3.1.6 Show single diagram on the homepage](#316-show-single-diagram-on-the-homepage)
     + [3.1.7 Insert the “homepage” button](#317-insert-the-"homepage"-button)
-    + [3.1.8 Insert the “settings”](#318-insert-the-"settings")
+    + [3.1.8 Insert the “settings” button](#318-insert-the-"settings"-bottun)
     + [3.1.9 Create the starting tutorial](#319-create-the-starting-tutorial)
-    + [3.1.10 Requirement description](#3110-requirement-description)
+    + [3.1.10 Implement the "Settings](#3110-implement-the-"settings")
+    + [3.1.11 Requirement description](#3111-requirement-description)
   * [3.2 Usability](#32-usability)
   * [3.3 Reliability](#33-reliability)
     + [3.3.1 Availability](#331-availability)
@@ -112,12 +114,20 @@ It will be possible to manually note every payment and assign it to a category
 #### 3.1.6 Show single diagram on the homepage
 The user can select hos favorite diagram to be shown on the homepage/overview
 #### 3.1.7 Insert the “homepage” button
-There will be a home button which leads the user to the home page (from everywhere)
-#### 3.1.8 Insert the “settings”
-There will be a setting button which leads the user to the settings. On the setting, the user can individualize his app.
+There will be a home button which leads the user to the home page (from everywhere)./ We decided us to implement a toolbar which will always be shown. The toolbar will be located at the bottom of the app and will provide a small number of buttons which leads the user to every main page.
+
+See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/tree/master/UseCases/7_8_toolbar
+
+#### 3.1.8 Insert the “settings” button
+There will be a setting button which leads the user to the settings./ We decided us to implement a toolbar which will always be shown. The toolbar will be located at the bottom of the app and will provide a small number of buttons which leads the user to every main page.
+
+see more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/tree/master/UseCases/7_8_toolbar
+
 #### 3.1.9 Create the starting tutorial
 There will be a tutorial on the first start of the app which can be repeated several times
-#### 3.1.10 Requirement description
+#### 3.1.10 implement the "Settings"
+On the setting, the user can individualize his app.
+#### 3.1.11 Requirement description
 During development progress, the following tools will be in use:
   * Android studio for the emulation
   * "Flutter" framework
