@@ -14,7 +14,7 @@ The toolbar should be always available and makes it possible to simply navigate 
 ## 2.1 Basic Flow
 
 ### Activity Diagram
-![Activity Diagram]()
+![Activity Diagram](./UseCaseToolbar.png)
 
 ### .feature File
 ![Feature-JPG]()
