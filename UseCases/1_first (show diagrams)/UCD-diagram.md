@@ -9,6 +9,11 @@ The goal of this UseCase is to enable the User to see a diagram about his actual
 ## 1.2 Mockup
 ![Mockup](./easyFinance-Diagram.png)
 
+## 1.3 Screenshots
+![Diagram](./Diagram1.PNG)
+![Diagram](./Diagram2.PNG)
+![Diagram](./Diagram3.PNG)
+
 # 2. Flow of Events
 
 ## 2.1 Basic Flow
