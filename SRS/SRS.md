@@ -8,7 +8,8 @@ Revision History\
 |------------|---------|---------------|---------------|
 | 10/16/2019 | 0.9     | First draft   | Nico Rahm     |
 | 10/20/2019 | 1.0     | Second draft  | Nico Rahm     |
-| 10/29/2019 | 1.1     | Third draft   | Dominik Lange |			
+| 10/29/2019 | 1.1     | Third draft   | Dominik Lange |
+| 12/08/2019 | 1.2     | Fourth draft  | Dominik Lange |
 
  
 ## Table of Contents
