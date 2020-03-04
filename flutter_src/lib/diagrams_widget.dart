@@ -73,7 +73,7 @@ class _DiagramPageState extends State<DiagramPage> {
         fillPatternFn: (_, __) => charts.FillPatternType.solid,
         fillColorFn: (SolidBarData usage, _) =>
             charts.ColorUtil.fromDartColor(Color(0xff990099)),
-      ), 
+      ),
     );
 
     _seriesData.add(
@@ -84,7 +84,7 @@ class _DiagramPageState extends State<DiagramPage> {
         data: data2,
         fillPatternFn: (_, __) => charts.FillPatternType.solid,
         fillColorFn: (SolidBarData usage, _) =>
-           charts.ColorUtil.fromDartColor(Color(0xff109618)),
+            charts.ColorUtil.fromDartColor(Color(0xff109618)),
       ),
     );
 
@@ -95,8 +95,8 @@ class _DiagramPageState extends State<DiagramPage> {
         id: 'nov',
         data: data3,
         fillPatternFn: (_, __) => charts.FillPatternType.solid,
-       fillColorFn: (SolidBarData usage, _) =>
-          charts.ColorUtil.fromDartColor(Color(0xffff9900)),
+        fillColorFn: (SolidBarData usage, _) =>
+            charts.ColorUtil.fromDartColor(Color(0xffff9900)),
       ),
     );
 
@@ -108,7 +108,7 @@ class _DiagramPageState extends State<DiagramPage> {
             charts.ColorUtil.fromDartColor(task.colorval),
         id: 'SolidBarData',
         data: piedata,
-         labelAccessorFn: (Task row, _) => '${row.taskvalue}',
+        labelAccessorFn: (Task row, _) => '${row.taskvalue}',
       ),
     );
 
@@ -158,15 +158,15 @@ class _DiagramPageState extends State<DiagramPage> {
         length: 3,
         child: Scaffold(
           appBar: TabBar(
-              labelColor: Color(0xff1976d2),
-              indicatorColor: Color(0xff9962D0),
-              tabs: [
-                Tab(
-                  icon: Icon(FontAwesomeIcons.solidChartBar),
-                ),
-                Tab(icon: Icon(FontAwesomeIcons.chartPie)),
-                Tab(icon: Icon(FontAwesomeIcons.chartLine)),
-              ],
+            labelColor: Color(0xff1976d2),
+            indicatorColor: Color(0xff9962D0),
+            tabs: [
+              Tab(
+                icon: Icon(FontAwesomeIcons.solidChartBar),
+              ),
+              Tab(icon: Icon(FontAwesomeIcons.chartPie)),
+              Tab(icon: Icon(FontAwesomeIcons.chartLine)),
+            ],
           ),
           body: TabBarView(
             children: [
@@ -177,7 +177,10 @@ class _DiagramPageState extends State<DiagramPage> {
                     child: Column(
                       children: <Widget>[
                         Text(
-                            'Expenditures and earnings per month',style: TextStyle(fontSize: 24.0,fontWeight: FontWeight.bold),),
+                          'Expenditures and earnings per month',
+                          style: TextStyle(
+                              fontSize: 24.0, fontWeight: FontWeight.bold),
+                        ),
                         Expanded(
                           child: charts.BarChart(
                             _seriesData,
@@ -199,31 +202,39 @@ class _DiagramPageState extends State<DiagramPage> {
                     child: Column(
                       children: <Widget>[
                         Text(
-                            'DonutChart Expenditures',style: TextStyle(fontSize: 24.0,fontWeight: FontWeight.bold),),
-                            SizedBox(height: 10.0,),
+                          'DonutChart Expenditures',
+                          style: TextStyle(
+                              fontSize: 24.0, fontWeight: FontWeight.bold),
+                        ),
+                        SizedBox(
+                          height: 10.0,
+                        ),
                         Expanded(
-                          child: charts.PieChart(
-                            _seriesPieData,
-                            animate: true,
-                            animationDuration: Duration(seconds: 1),
-                             behaviors: [
-                            new charts.DatumLegend(
-                              outsideJustification: charts.OutsideJustification.endDrawArea,
-                              horizontalFirst: false,
-                              desiredMaxRows: 2,
-                              cellPadding: new EdgeInsets.only(right: 4.0, bottom: 4.0),
-                              entryTextStyle: charts.TextStyleSpec(
-                                  color: charts.MaterialPalette.purple.shadeDefault,
-                                  fontFamily: 'Georgia',
-                                  fontSize: 11),
-                            )
-                          ],
-                           defaultRenderer: new charts.ArcRendererConfig(
-                              arcWidth: 100,
-                             arcRendererDecorators: [
-          new charts.ArcLabelDecorator(
-              labelPosition: charts.ArcLabelPosition.inside)
-        ])),
+                          child: charts.PieChart(_seriesPieData,
+                              animate: true,
+                              animationDuration: Duration(seconds: 1),
+                              behaviors: [
+                                new charts.DatumLegend(
+                                  outsideJustification:
+                                      charts.OutsideJustification.endDrawArea,
+                                  horizontalFirst: false,
+                                  desiredMaxRows: 2,
+                                  cellPadding: new EdgeInsets.only(
+                                      right: 4.0, bottom: 4.0),
+                                  entryTextStyle: charts.TextStyleSpec(
+                                      color: charts
+                                          .MaterialPalette.purple.shadeDefault,
+                                      fontFamily: 'Georgia',
+                                      fontSize: 11),
+                                )
+                              ],
+                              defaultRenderer: new charts.ArcRendererConfig(
+                                  arcWidth: 100,
+                                  arcRendererDecorators: [
+                                    new charts.ArcLabelDecorator(
+                                        labelPosition:
+                                            charts.ArcLabelPosition.inside)
+                                  ])),
                         ),
                       ],
                     ),
@@ -237,27 +248,34 @@ class _DiagramPageState extends State<DiagramPage> {
                     child: Column(
                       children: <Widget>[
                         Text(
-                            'Sales for the first 5 years TESTDATA',style: TextStyle(fontSize: 24.0,fontWeight: FontWeight.bold),),
+                          'Sales for the first 5 years TESTDATA',
+                          style: TextStyle(
+                              fontSize: 24.0, fontWeight: FontWeight.bold),
+                        ),
                         Expanded(
-                          child: charts.LineChart(
-                            _seriesLineData,
-                            defaultRenderer: new charts.LineRendererConfig(
-                                includeArea: true, stacked: true),
-                            animate: true,
-                            animationDuration: Duration(seconds: 1),
-                            behaviors: [
-        new charts.ChartTitle('Years',
-            behaviorPosition: charts.BehaviorPosition.bottom,
-            titleOutsideJustification:charts.OutsideJustification.middleDrawArea),
-        new charts.ChartTitle('Sales',
-            behaviorPosition: charts.BehaviorPosition.start,
-            titleOutsideJustification: charts.OutsideJustification.middleDrawArea),
-        new charts.ChartTitle('Departments',
-            behaviorPosition: charts.BehaviorPosition.end,
-            titleOutsideJustification:charts.OutsideJustification.middleDrawArea,
-            )   
-      ]
-                          ),
+                          child: charts.LineChart(_seriesLineData,
+                              defaultRenderer: new charts.LineRendererConfig(
+                                  includeArea: true, stacked: true),
+                              animate: true,
+                              animationDuration: Duration(seconds: 1),
+                              behaviors: [
+                                new charts.ChartTitle('Years',
+                                    behaviorPosition:
+                                        charts.BehaviorPosition.bottom,
+                                    titleOutsideJustification: charts
+                                        .OutsideJustification.middleDrawArea),
+                                new charts.ChartTitle('Sales',
+                                    behaviorPosition:
+                                        charts.BehaviorPosition.start,
+                                    titleOutsideJustification: charts
+                                        .OutsideJustification.middleDrawArea),
+                                new charts.ChartTitle(
+                                  'Departments',
+                                  behaviorPosition: charts.BehaviorPosition.end,
+                                  titleOutsideJustification: charts
+                                      .OutsideJustification.middleDrawArea,
+                                )
+                              ]),
                         ),
                       ],
                     ),
