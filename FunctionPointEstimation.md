@@ -1,1 +1,0 @@
-# Function Point analysis detail
