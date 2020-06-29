@@ -35,4 +35,4 @@ The only precondition of this usecase is:
 The user can edit the name by which he is addressed from the app.
 
 # 6. Function Points
-n/a
+18 FP

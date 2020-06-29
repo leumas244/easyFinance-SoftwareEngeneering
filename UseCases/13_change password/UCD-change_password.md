@@ -34,4 +34,4 @@ The only precondition of this usecase is:
 The user can use his new password to get in the app
 
 # 6. Function Points
-n/a
+20 FP

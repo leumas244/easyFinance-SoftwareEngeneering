@@ -42,4 +42,4 @@ The only precondition of this usecase is:
 The user can see his actual balance.
 
 # 6. Function Points
-n/a
+18,85 FP

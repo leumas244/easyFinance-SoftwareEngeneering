@@ -35,4 +35,4 @@ The only precondition of this usecase is:
 The user can add a new transaction.
 
 # 6. Function Points
-n/a
+23,4 FP

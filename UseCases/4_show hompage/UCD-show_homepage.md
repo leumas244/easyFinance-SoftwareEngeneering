@@ -33,4 +33,4 @@ n/a
 The user will have a nice overview about his additions this month.
 
 # 6. Function Points
-n/a
+20 FP

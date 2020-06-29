@@ -34,4 +34,4 @@ The only precondition of this usecase is:
 The user will have an overview about all his transactions.
 
 # 6. Function Points
-n/a
+46 FP

@@ -33,4 +33,4 @@ The only precondition of this usecase is:
 The user will be addressed personally.
 
 # 6. Function Points
-n/a
+18 FP

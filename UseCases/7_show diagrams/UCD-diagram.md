@@ -44,4 +44,4 @@ The main preconditions for this use case are:
 The user sees a diagram he has chosen, including his actual balance
 
 # 6. Function Points
-n/a
+46,8 FP

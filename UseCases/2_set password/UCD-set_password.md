@@ -33,4 +33,4 @@ The only precondition of this usecase is:
 The user will have a password which is needed to enter in the app.
 
 # 6. Function Points
-n/a
+14,95 FP

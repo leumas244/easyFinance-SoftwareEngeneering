@@ -37,4 +37,4 @@ The only precondition of this usecase is:
 The user can delete categories.
 
 # 6. Function Points
-n/a
+21 FP
