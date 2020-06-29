@@ -9,6 +9,10 @@ The goal of this UseCase is to set the initial bankbalance, to have a well overv
 ## 1.2 Mockup
 ![Mockup](./easyFinance-Kontostand.png)
 
+## 1.3 Screenshots
+![Settings](./change_balance1.jpeg)
+![Set bankbalance](./change_balance2.jpeg)
+
 # 2. Flow of Events
 
 ## 2.1 Basic Flow
