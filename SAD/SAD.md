@@ -98,15 +98,30 @@ You can get further information on [this](https://softwareengineeringtinf18b3.wo
 ## 9. Data View
 
 
-| transactions | bankbalance | categories | settings |
-| - | - | - | - |
-| ID | ID | ID | ID |
-| category | currentBalance | category | password |
-| type |   |   | username |
-| amount |   |   |   |
-| dateTime |   |   |   |
-| note |   |   |   |
-| currentBalance |   |   |   |
+| transactions | 
+| - | 
+| ID |
+| category (FK)|
+| type |
+| amount |
+| dateTime |
+| note |
+| currentBalance |
+
+|bankbalance |
+| - |
+|ID|
+|currentBalance|
+
+| categories |
+| - |
+|ID|
+|category|
+
+| settings |
+|-|
+|password|
+|username|
 
 ## 10. Size and Performance
 
