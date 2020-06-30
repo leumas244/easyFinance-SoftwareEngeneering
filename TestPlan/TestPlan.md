@@ -62,8 +62,14 @@ n/a
 n/a
 
 #### 5.1.4	User Interface Testing
-Gherkin feature files
-tbd
+|||
+|---|---|
+|Technique Objective|Every service request shall be done correctly. Possible exceptions are caught correctly.|
+|Technique|Integration tests on the rendered UI|
+|Oracles|user enter valid data, for example a valid username and a valid password|
+|Required Tools|flutter_test_diver|
+|Success Criteria|successful scenarios, all tests will pass, no strange behaviour will occur|
+|Special Consideration|-|
 
 #### 5.1.5	Performance Profiling 
 n/a
@@ -87,7 +93,15 @@ n/a
 n/a
 
 #### 5.1.12	Installation Testing
-tbd
+|||
+|---|---|
+|Technique|User installs the app on his device|
+|Required Tools|Andriod-Phone|
+|Success Criteria|User would use the App in private|
+
+##### 5.1.12.1 User Feedback
+implement standing orders / execute transactions cyclic
+use biometric authentication to replace Password
 
 ## 6.	Entry and Exit Criteria
 ### 6.1	Test Plan
@@ -163,7 +177,9 @@ n/a
 |Milestone|Planned start Date|actual start date|planned end date|actual end date|
 |---|---|---|---|---|
 |First Unit Tests|13.05.2020|15.05.2020|17.05.20|17.05.20|
-|70% coverage|10.06.2020||24.06.2020||
+|70% coverage|10.06.2020|coverage not supported|24.06.2020|coverage not supported|
+|All Main Feautures by Integration Test|15.06.2020|15.06.2020|25.06.2020|21.06.2020|
+|User Test|25.06.2020|25.06.2020|25.06.2020|25.06.2020|
 ## 12. Risks, Dependencies, Assumptions and Constaints
 n/a
 
