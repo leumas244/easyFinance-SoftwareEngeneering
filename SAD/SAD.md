@@ -1,4 +1,4 @@
-Version 0.9
+Version 1.1
 
 Revision History\
 
@@ -7,6 +7,7 @@ Revision History\
 | - | - | - | - |
 | 12/02/2019 | 0.9 | First draft | Samuel |
 | 06/28/2020 | 1.0 | added Information for Final | Nico |
+| 06/28/2020 | 1.1 | fixed wrong overall UCD and database view | Nico |
 
 # Software Architecture Document
 
