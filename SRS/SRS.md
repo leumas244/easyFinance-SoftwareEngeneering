@@ -98,64 +98,74 @@ In general, easyFinance gives the user an individual overview about his/her fina
 ### 3.1	Functionality and UseCases
 #### 3.1.1 Set Username
 On first Use, the User has to set a username, which will be used for the login in future.
-See more:
+
+See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/tree/master/UseCases/1_set%20username
 
 #### 3.1.2 Set Passwort
 On first Use, the User has to set a password, which will be used for the login in future.
-See more:
+
+See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/tree/master/UseCases/2_set%20password
 
 #### 3.1.3 Navigate with Toolbar
 We decided us to implement a toolbar which will always be shown. The toolbar will be located at the bottom of the app and will provide a small number of buttons which leads the user to every main page.
-See more:
+
+See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/tree/master/UseCases/3_navigate%20with%20toolbar
 
 #### 3.1.4 Show homepage
 The homepage is our main page. It provides an overview about all numbers and transactions. This UseCase includes the implementation, as well as the connection with the toolbar.
-See more:
+
+See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/tree/master/UseCases/4_show%20hompage
 
 #### 3.1.5 Show Diagrams
 There is a possibility in the app to see several individual diagrams about the user’s financial state.
 With the button “show diagram”, the system loads a new page on which the user can select/click on the wished diagrams to be shown.
 The system requests the needed data from the data bank and draws the clicked diagrams.
 
-See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/blob/master/UseCases/first%20(show%20diagrams)/UCD-diagram.md
+See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/tree/master/UseCases/7_show%20diagrams
 
 #### 3.1.6 Show Transactions
 The Transations-page shows all transactions. It is possible to do a new transaction by pressing the '+'-button on that page. This UseCase includes the implementation, as well as the connection with the toolbar.
-See more:
+
+See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/tree/master/UseCases/5_show%20transactions
 
 #### 3.1.7 Show Settings
 On the setting, the user can individualize his app. It is possible to change the username and password, create and delete categories and activate/deactivate notifications in future. This UseCase includes the implementation, as well as the connection with the toolbar.
-See more:
+
+See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/tree/master/UseCases/8_show%20settings
 
 #### 3.1.8 Note Transactions
 It is possible to manually note every payment and assign it to a category.
-See more:
+
+See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/tree/master/UseCases/6_note%20transaction
 
 #### 3.1.9 Set Alerts for bankbalance
 This function makes is possible to set alerts, which help the user to meet saving targets. Unfortunately it is not implemented yet.
 
 #### 3.1.10 Create Categories
 The user can create his own transaction-categories, beside the standard ones. Later on, payments can be assigned to those categories.
-See more:
+
+See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/tree/master/UseCases/10_create%20categories
 
 #### 3.1.11 Delete Categories
 The user can delete every category except the "miscellaneous"-one. Transactions that are designed to a deleted categories belong to "miscellaneous".
-See more:
+
+See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/tree/master/UseCases/11_delete%20categories
 
 #### 3.1.12 Change Username
 The username can be changed in the settings.
-See more:
+See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/tree/master/UseCases/12_change%20Username
 
 #### 3.1.13 Change Password
 The password can be changed in the settings.
-See more:
+
+See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/tree/master/UseCases/13_change%20password
 
 #### 3.1.14 Set bankbalance
 On the first use, the current bank balance has to be set in the app.
 Therefore, a button, called “set bank-balance”, can be clicked in order to link the user to a new page on which it is possible to insert a float number in a casket.
 With another click on a “save” button, the user gets back to the start page on which the current bank balance will be shown.
 
-See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/blob/master/UseCases/second%20(add%20bankbalance)/UCD-bankbalance.md
+See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/tree/master/UseCases/14_set%20bank%20balance
 
 
 #### 3.1.15 Requirement description
