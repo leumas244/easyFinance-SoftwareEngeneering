@@ -23,17 +23,21 @@ Revision History\
 - [2. Overall Description](#2-overall-description)
 - [3. Specific Requirements](#3-specific-requirements)
   * [3.1 Functionality and UseCases](#31-functionality-and-usecases)
-    + [3.1.1 Set bank balance](#311-set-bank-balance)
-    + [3.1.2 Show diagrams](#312-test)
-    + [3.1.3 Add categories](#313-add-categories)
-    + [3.1.4 Note payments/transactions](#314-note-payments/transactions)
-    + [3.1.5 Set alerts for balance limits & push notifications](#315-set-alerts-for-bank-balance-limits-&-push-notifications)
-    + [3.1.6 Show single diagram on the homepage](#316-show-single-diagram-on-the-homepage)
-    + [3.1.7 Insert the “homepage” button](#317-insert-the-"homepage"-button)
-    + [3.1.8 Insert the “settings” button](#318-insert-the-"settings"-bottun)
-    + [3.1.9 Create the starting tutorial](#319-create-the-starting-tutorial)
-    + [3.1.10 Implement the "Settings](#3110-implement-the-"settings")
-    + [3.1.11 Requirement description](#3111-requirement-description)
+    + [3.1.1 Set Username](#311-Set-Username)
+    + [3.1.2 Set Passwort](#312-Set-Password)
+    + [3.1.3 Navigate with Toolbar](#313-Navigate-with-Toolbar)
+    + [3.1.4 Show homepage](#314-Show-homepage)
+    + [3.1.5 Show Diagrams](#315-Show-Diagrams)
+    + [3.1.6 Show Transactions](#316-Show-Transactions)
+    + [3.1.7 Show Settings](#317-Show-Settings)
+    + [3.1.8 Note Transactions](#318-Note-Transactions)
+    + [3.1.9 Set Alerts for bankbalance](#319-Set-Alerts-for-bankbalance)
+    + [3.1.10 Create Categories](#3110-Create-Categories)
+    + [3.1.11 Delete Categories](#3111-Delete-Categories)
+    + [3.1.12 Change Username](#3112-Change-Username)
+    + [3.1.13 Change Password](#3113-Change-Password)
+    + [3.1.14 Set bank balance](#3114-Set-bankbalance)
+    + [3.1.15 Requirement description](#3115-Requirement-description)
   * [3.2 Usability](#32-usability)
   * [3.3 Reliability](#33-reliability)
     + [3.3.1 Availability](#331-availability)
@@ -92,42 +96,69 @@ In general, easyFinance gives the user an individual overview about his/her fina
 
 ## 3. Specific Requirements 
 ### 3.1	Functionality and UseCases
-#### 3.1.1 Set bank balance
-On the first use, the current bank balance has to be set in the app.
-Therefore, a button, called “adapt bank-balance”, can be clicked in order to link the user to a new page on which it is possible to insert a float number in a casket.
-With another click on a “save” button, the user gets back to the start page on which the current bank balance will be shown.
+#### 3.1.1 Set Username
+On first Use, the User has to set a username, which will be used for the login in future.
+See more:
 
-See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/blob/master/UseCases/second%20(add%20bankbalance)/UCD-bankbalance.md
+#### 3.1.2 Set Passwort
+On first Use, the User has to set a password, which will be used for the login in future.
+See more:
 
-#### 3.1.2 Show diagrams
+#### 3.1.3 Navigate with Toolbar
+We decided us to implement a toolbar which will always be shown. The toolbar will be located at the bottom of the app and will provide a small number of buttons which leads the user to every main page.
+See more:
+
+#### 3.1.4 Show homepage
+The homepage is our main page. It provides an overview about all numbers and transactions. This UseCase includes the implementation, as well as the connection with the toolbar.
+See more:
+
+#### 3.1.5 Show Diagrams
 There is a possibility in the app to see several individual diagrams about the user’s financial state.
 With the button “show diagram”, the system loads a new page on which the user can select/click on the wished diagrams to be shown.
 The system requests the needed data from the data bank and draws the clicked diagrams.
 
 See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/blob/master/UseCases/first%20(show%20diagrams)/UCD-diagram.md
 
-#### 3.1.3 Add categories
+#### 3.1.6 Show Transactions
+The Transations-page shows all transactions. It is possible to do a new transaction by pressing the '+'-button on that page. This UseCase includes the implementation, as well as the connection with the toolbar.
+See more:
+
+#### 3.1.7 Show Settings
+On the setting, the user can individualize his app. It is possible to change the username and password, create and delete categories and activate/deactivate notifications in future. This UseCase includes the implementation, as well as the connection with the toolbar.
+See more:
+
+#### 3.1.8 Note Transactions
+It is possible to manually note every payment and assign it to a category.
+See more:
+
+#### 3.1.9 Set Alerts for bankbalance
+This function makes is possible to set alerts, which help the user to meet saving targets. Unfortunately it is not implemented yet.
+
+#### 3.1.10 Create Categories
 The user can create his own transaction-categories, beside the standard ones. Later on, payments can be assigned to those categories.
-#### 3.1.4 Note payments/transactions
-It will be possible to manually note every payment and assign it to a category
-#### 3.1.5 Set alerts for balance limits & push notifications
-#### 3.1.6 Show single diagram on the homepage
-The user can select hos favorite diagram to be shown on the homepage/overview
-#### 3.1.7 Insert the “homepage” button
-There will be a home button which leads the user to the home page (from everywhere)./ We decided us to implement a toolbar which will always be shown. The toolbar will be located at the bottom of the app and will provide a small number of buttons which leads the user to every main page.
+See more:
 
-See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/tree/master/UseCases/7_8_toolbar
+#### 3.1.11 Delete Categories
+The user can delete every category except the "miscellaneous"-one. Transactions that are designed to a deleted categories belong to "miscellaneous".
+See more:
 
-#### 3.1.8 Insert the “settings” button
-There will be a setting button which leads the user to the settings./ We decided us to implement a toolbar which will always be shown. The toolbar will be located at the bottom of the app and will provide a small number of buttons which leads the user to every main page.
+#### 3.1.12 Change Username
+The username can be changed in the settings.
+See more:
 
-see more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/tree/master/UseCases/7_8_toolbar
+#### 3.1.13 Change Password
+The password can be changed in the settings.
+See more:
 
-#### 3.1.9 Create the starting tutorial
-There will be a tutorial on the first start of the app which can be repeated several times
-#### 3.1.10 implement the "Settings"
-On the setting, the user can individualize his app.
-#### 3.1.11 Requirement description
+#### 3.1.14 Set bankbalance
+On the first use, the current bank balance has to be set in the app.
+Therefore, a button, called “set bank-balance”, can be clicked in order to link the user to a new page on which it is possible to insert a float number in a casket.
+With another click on a “save” button, the user gets back to the start page on which the current bank balance will be shown.
+
+See more: https://github.com/leumas244/easyFinance-SoftwareEngeneering/blob/master/UseCases/second%20(add%20bankbalance)/UCD-bankbalance.md
+
+
+#### 3.1.15 Requirement description
 During development progress, the following tools will be in use:
   * Android studio for the emulation
   * "Flutter" framework
